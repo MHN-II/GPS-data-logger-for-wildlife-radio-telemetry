@@ -3,29 +3,26 @@
 
 ### Overview ###
 
-Wildlife biologist currently use Radio-telemetry to obtatain information on the movement of a focal species. Radio-telementry is a very effective tool however the procedure assosiated with its usage is very ineffient. A typical tracking procedure would go as follows:
-*A large metal anntena connected to a VHF radio telemetry transmitter is taken into the field 
-*The range of the transmitter is set to the max and the anntena is pointed in all directions until a beep is heard
-*The researches head in that direction and decrease the range 
-**This process is repeated unitil the animal is found**
+Wildlife biologist currently use Radio-telemetry to obtain information on the movement of a focal species. Radio-telemetry is a very effective tool however the procedure associated with its usage is very inefficient. Typically a large metal antenna is connected to a VHF radio telemetry transmitter and taken into the field, then the procedure goes as follows: 
+* The range of the transmitter is set to the max and the antenna is pointed in all directions until a beep is heard
+* The researchers head in that direction and decrease the range 
+* The area is scanned, the researchers move in the direction of the beep, and the range is decreased
+**This step is repeated until the animal is found, which could take many HOURS**
+In addition, Radio-telemetry can inﬂuence the behavior of the animal when frequent measurements are required. 
 
 
-
-Typically  is used to track down the focal species, the anntenna is pointed   
-onto  and can inﬂuence the behavior of the animal when frequent measurements are required. 
-
-
-Oftentimes, the main limitation to widespread application of this technology is the cost,which can dictate the number of individuals outﬁtted with GPS technology, thereby limitingsample sizes. Here, we discuss the development of a low-cost, customizable, open-source hard-ware GPS logger for use in animal movement studies. 
+Global Positioning System (GPS) technology can be used to gather larger data sets that are more accurate much more efficiently. However, the main limitation to the widespread of this technology is the cost. Commercial wildlife GPS trackers cost on average between $2000–$8000, USD, with a bunch of hidden costs. Using open source hardware and software a low-cost GPS logger can be made with basic tools and a basic understanding of electronics
 
 ### Hardware Description ###
 
-The Logger is made up of 3 major components; an Arduino Pro Mini, GPSRM module, Lithion-ion battery and a custom designed PCB responsible for powering peripherals and storing data.
+The Logger is made up of 3 major components; an Arduino Pro Mini, GPSRM module, Lithium-ion battery and a custom designed PCB responsible for powering peripherals and storing data.
 
 ![webp net-resizeimage](https://user-images.githubusercontent.com/24802401/46558438-174a8780-c8bb-11e8-980e-1c13bab4512d.png)
-       ![webp net-resizeimage 1](https://user-images.githubusercontent.com/24802401/46558608-ad7ead80-c8bb-11e8-8fae-a488e478b079.png)
+             ![webp net-resizeimage 1](https://user-images.githubusercontent.com/24802401/46558608-ad7ead80-c8bb-11e8-8fae-a488e478b079.png)
 
-The components were aranged to minimize the height of the logger to reduce its footprint.
-Black Heat shink tubing was used to protect and water proof the logger
+* The components were arranged to minimize the height of the logger to reduce its footprint.
+
+* Black Heat shrink tubing was used to protect and water proof the logger
  
 
 
@@ -34,4 +31,4 @@ Black Heat shink tubing was used to protect and water proof the logger
 A logger placed on the shell of a snapping turtle 
 
 
-
+### Software Description ###
