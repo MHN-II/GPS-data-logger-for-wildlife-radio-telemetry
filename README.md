@@ -22,7 +22,7 @@ Oftentimes, the main limitation to widespread application of this technology is 
 The Logger is made up of 3 major components; an Arduino Pro Mini, GPSRM module, Lithion-ion battery and a custom designed PCB responsible for powering peripherals and storing data.
 
 ![webp net-resizeimage](https://user-images.githubusercontent.com/24802401/46558438-174a8780-c8bb-11e8-980e-1c13bab4512d.png)
-        ![webp net-resizeimage 1](https://user-images.githubusercontent.com/24802401/46558608-ad7ead80-c8bb-11e8-8fae-a488e478b079.png
+       ![webp net-resizeimage 1](https://user-images.githubusercontent.com/24802401/46558608-ad7ead80-c8bb-11e8-8fae-a488e478b079.png)
 
 The components were aranged to minimize the height of the logger to reduce its footprint.
 Black Heat shink tubing was used to protect and water proof the logger
